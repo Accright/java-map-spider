@@ -7,7 +7,8 @@
  3. 对于数据可以进行分级操作，包括区分出地市、区县、乡镇/街道、小区/工业园区/商务楼宇、楼栋等层级
  
  # 如何使用
- 在 com.accright.plugins.spider.utils.DBFactory 中配置好数据库与驱动，运行com.accright.plugins.spider.amap.main.CitySpider即可运行地市获取，运行com.accright.plugins.spider.amap.main.AmapSpider即可获取所有的POI数据及大部分的边界信息。
+ 在 com.accright.plugins.spider.utils.DBFactory 中配置好数据库与驱动，运行com.accright.plugins.spider.amap.main.CitySpider即可运行地市获取，运行com.accright.plugins.spider.amap.main.AmapSpider即可获取所有的POI数据及大部分的边界信息。运行com.accright.plugins.spider.amap.main.AddressManager即可进行数据的按照级别分割并入库，级别包括地市、区县、乡镇/街道、路、门牌号、小区/工业园区/商务楼宇、楼栋七级，可以通过修改配置的方式来决定保存哪几种分类和哪几个级别。
+ *数据库模型及字段请按照SQL进行创建和整理，目前适用于Oracle，稍加改造即可适用于MySQL*
  
  # 原理及使用
  
