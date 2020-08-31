@@ -1,4 +1,8 @@
 # java-map-spider
+![Stars](https://img.shields.io/github/stars/kangvcar/infospider?style=social)
+![JDK](https://img.shields.io/badge/JDK-1.8-green.svg)
+![MySQL](https://img.shields.io/badge/MySQL-5.6.4-green.svg)
+[![license](https://img.shields.io/badge/license-GPL%20v3-yellow.svg)](https://gitee.com/yadong.zhang/DBlog/blob/master/LICENSE)
 获取高德和百度地图的POI及边界数据爬虫-JAVA版本
 
 # 做了什么
