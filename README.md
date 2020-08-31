@@ -1,5 +1,5 @@
 # java-map-spider
-![Stars](https://img.shields.io/github/stars/kangvcar/infospider?style=social)
+![Stars](https://img.shields.io/github/stars/accright/java-map-spider?style=social)
 ![JDK](https://img.shields.io/badge/JDK-1.8-green.svg)
 ![MySQL](https://img.shields.io/badge/MySQL-5.6.4-green.svg)
 [![license](https://img.shields.io/badge/license-GPL%20v3-yellow.svg)](https://gitee.com/yadong.zhang/DBlog/blob/master/LICENSE)
